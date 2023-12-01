@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>CREED</title>
+		<meta charset="utf-8"/>
+		<meta name="author" content="Aleksandar Djordjevic, 31/23" />
+		<meta name="description" content="GYM CREED"/>
+		<meta name="keywords" content="trening, zdravlje, vezbe, treneri"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com"/>
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+		<link href="https://fonts.googleapis.com/css2?family=Jura:wght@400;600;700&family=Sen&display=swap" rel="stylesheet"/>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.3.0/css/all.css"/> 
+	
+	</head>
+	<body>
+		<div id="header">
+				<div id="logo">
+					<a href="index.html">
+						<img src="img/logo3.jpg" alt="logo"/><h1>Creed</h1>
+					</a>
+				</div>
+
+				<div id="nav">
+					<ul>
+						<li class="home"><a href="index.html">Pocetna</a></li>
+						<li><a href="index.html#about-us">O nama</a></li>
+						<li><a href="index.html#gallery">Galerija</a></li>
+						<li><a href="registration.html">Uclani se</a></li>
+						<li><a href="author.html">O autoru</a></li>
+					</ul>
+				</div>
+		</div>
+		
+		<div class="page-2">
+			<div class="heading-2">
+				<h2 class="name2">Uclani se</h2>
+				<br/>
+			</div>
+			<div id="form">
+				<div class="block">
+					<h3>Registracija</h3>
+					<form action="1.php" method="get">
+						<div class="row1">
+							<div class="user">
+								<label for="firstname">Ime :<span class="red"> *</span></label>
+								<input type="text" id="firstname" name="firstname" placeholder="Aleksandar" required/>
+							</div>
+							<div class="user">
+								<label for="lastname">Prezime :<span class="red"> *</span></label>
+								<input type="text" id="lastname" name="lastname" placeholder="Djordjevic" required/>
+							</div>
+						</div>
+						<div class="row2">
+							<label for="email">E-mail :<span class="red"> *</span></label>
+							<input type="email" id="email" name="email"  placeholder="aleksandar.djordjevic.31.23@ict.edu.rs" required/>
+						</div>
+						<div class="row2">
+							<label for="tel">Telefon :<span class="red"> *</span></label>
+							<input type="text" id="tel" name="tel"  placeholder="061-212-6655" required/>
+						</div>
+						<div class="row1">
+							<div class="user">
+								<label for="date">Datum rodjenja :</label>
+								<input type="date" id="date" name="date"/>
+							</div>
+							<div class="user">
+								<label for="treneri">Treneri :</label>
+								<select name="treneri" id="treneri">
+									<option value="0">-izaberite-</option>
+									<option value="tr1">Trener 1</option>
+									<option value="tr2">Trener 2</option>
+									<option value="tr3">Trener 3</option>
+								</select>
+							</div>
+						</div>
+						<div class="row2">
+							<input type="submit" id="taster" name="taster" value="REGISTRUJ SE"/>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div id="footer">
+		
+				<div id="contact">
+					<p><i class="fa-solid fa-phone"></i>+381-61-2126655</p>
+					<p><i class="fa-regular fa-envelope"></i>gym&#46;creed&#64;gmail&#46;com</p>
+					<p><i class="fa-solid fa-location-dot"></i>Zdravka Čelara 16, 11000 Beograd</p>
+				</div>
+				
+				<div id="info">
+					<img src="img/logo3.jpg" alt="logo"/>
+					<p>&copy; Copyright Aleksandar Djordjević 31/23 2023.</p>
+				</div>
+				
+				<div id="links">
+					<div id="socials">
+						<ul>
+							<li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+							<li><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+							<li><a href="https://www.viber.com" target="_blank"><i class="fa-brands fa-viber"></i></a></li>
+							<li><a href="sitemap.xml" target="_blank"><i class="fa-solid fa-sitemap"></i></a></li>
+							<li><a href="rss.xml" target="_blank"><i class="fa-solid fa-rss"></i></a></li>
+							<li><a href="robots.txt" target="_blank"><i class="fa-solid fa-file-lines"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				
+		</div>
+	</body>
+</html>

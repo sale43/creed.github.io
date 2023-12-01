@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+	<title>Obaveštenja</title>
+	<link>https://sale43.github.io/aleksandar43.github.io/</link>
+	<description></description>
+	<item>
+	<item>
+	<title>Galerija</title>
+	<link>https://sale43.github.io/aleksandar43.github.io/index.html#gallery.html</link>
+	<description>Nove slike sprava iz naše teretane</description>
+	</item>
+	<title>Članstvo</title>
+	<link>https://sale43.github.io/aleksandar43.github.io/index.html/registation.html</link>
+	<description>Novi članovi</description>
+	</item>
+</channel>
+</rss>
